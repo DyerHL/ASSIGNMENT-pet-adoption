@@ -210,3 +210,37 @@ const pets = [
       imageUrl: "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119"
     }
   ];
+
+  for (const petcard of pets) {
+    document.getElementById("pet-page").innerHTML =+ 
+    <div class="card">
+      <div class="header">
+        `${petcard.name}`
+      </div>
+      <div class="image">
+       <img src="${petcards.imageURL}" alt="image of ${petcard.type}"/>
+      </div> 
+      <div class="color">
+        `${petcard.color}`
+      </div>
+      <div class="specialSkill">
+       `${petcard.specialSkill}`
+      </div>
+       <div class="type">
+       <footer>`${petcard.type}</footer>
+      </div>
+    </div>;
+  }
+
+  const dogButtonClick = () => {
+
+  };
+  const catButtonClick = () => {
+
+  };
+  const dinoButtonClick = () => {
+
+  };
+  const allButtonClick = () => {
+
+  };
