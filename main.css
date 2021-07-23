@@ -1,0 +1,43 @@
+.card {
+    display: flex;
+    border: 2px solid rgb(145, 140, 140)
+}
+
+
+
+.button {
+    display:flex;
+    justify-content: center;
+}
+.dog-button {
+    color: white;
+    background-color: rgb(80, 180, 105);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.cat-button {
+    color: white;
+    background-color: rgb(80, 163, 145);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.dino-button {
+    color: white;
+    background-color: rgb(151, 91, 185);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.all-button {
+    color: white;
+    background-color: rgb(145, 99, 124);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
