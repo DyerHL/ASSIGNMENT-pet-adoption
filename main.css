@@ -1,9 +1,17 @@
 .card {
     display: flex;
-    border: 2px solid rgb(145, 140, 140)
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 5px;
+    width: 18rem;
+    justify-content: center;
+    margin: 5px;
 }
-
-
+.image {
+    width: 10rem;
+}
+.header {
+    justify-content: center;
+}
 
 .button {
     display:flex;
