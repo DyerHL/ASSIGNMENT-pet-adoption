@@ -212,24 +212,24 @@ const pets = [
   ];
 
   for (const petcard of pets) {
-    document.getElementById("pet-page").innerHTML =+ 
-    <div class="card">
+    document.getElementById("pet-page").innerHTML += 
+    ` <div class="card">
       <div class="header">
-        `${petcard.name}`
+        ${petcard.name}
       </div>
       <div class="image">
-       <img src="${petcards.imageURL}" alt="image of ${petcard.type}"/>
+       <img src="${petcard.imageUrl}" alt="image of ${petcard.type}"/>
       </div> 
       <div class="color">
-        `${petcard.color}`
+      ${petcard.color}
       </div>
       <div class="specialSkill">
-       `${petcard.specialSkill}`
+       ${petcard.specialSkill}
       </div>
        <div class="type">
-       <footer>`${petcard.type}</footer>
+       <footer>${petcard.type}</footer>
       </div>
-    </div>;
+    </div> `;
   }
 
   const dogButtonClick = () => {
