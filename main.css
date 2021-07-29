@@ -1,23 +1,35 @@
-.card {
-    display: flex;
-    border: 2px solid rgb(179, 179, 179);
-    border-radius: 5px;
-    width: 18rem;
-    justify-content: center;
-    margin: 5px;
-}
-.image {
-    width: 10rem;
-}
-.header {
-    justify-content: center;
+body {
+    background-color: rgb(169, 235, 240);
 }
 
-.button {
+.cardStyles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(169, 235, 240);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 15rem;
+    align-items: center;
+    margin: 5px;
+}
+.card-header {
+    color: rgb(141, 140, 140);
+    justify-content: center;
+    width: 100%;
+}
+.card-footer{
+    width: 100%;
+}
+.buttonContainerStyles {
     display:flex;
     justify-content: center;
+    background-color:rgb(169, 235, 240);
 }
-.dog-button {
+#dog {
     color: white;
     background-color: rgb(80, 180, 105);
     border: none;
@@ -25,7 +37,7 @@
     border-radius: 5px;
     margin: 20px;
 }
-.cat-button {
+#cat {
     color: white;
     background-color: rgb(80, 163, 145);
     border: none;
@@ -33,7 +45,7 @@
     border-radius: 5px;
     margin: 20px;
 }
-.dino-button {
+#dino {
     color: white;
     background-color: rgb(151, 91, 185);
     border: none;
@@ -41,7 +53,7 @@
     border-radius: 5px;
     margin: 20px;
 }
-.all-button {
+#all {
     color: white;
     background-color: rgb(145, 99, 124);
     border: none;
