@@ -1,6 +1,12 @@
+body {
+    background-color: rgb(169, 235, 240);
+}
+
 .cardStyles {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(169, 235, 240);
 }
 .card {
     display: flex;
@@ -12,7 +18,6 @@
 }
 .card-header {
     color: rgb(141, 140, 140);
-    background-color: rgb(216, 213, 213);
     justify-content: center;
     width: 100%;
 }
@@ -22,6 +27,7 @@
 .buttonContainerStyles {
     display:flex;
     justify-content: center;
+    background-color:rgb(169, 235, 240);
 }
 #dog {
     color: white;
