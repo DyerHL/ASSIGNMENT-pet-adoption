@@ -1,23 +1,29 @@
+.cardStyles {
+    display: flex;
+    flex-wrap: wrap;
+}
 .card {
     display: flex;
-    border: 2px solid rgb(179, 179, 179);
+    flex-direction: column;
     border-radius: 5px;
-    width: 18rem;
-    justify-content: center;
+    width: 15rem;
+    align-items: center;
     margin: 5px;
 }
-.image {
-    width: 10rem;
-}
-.header {
+.card-header {
+    color: rgb(141, 140, 140);
+    background-color: rgb(216, 213, 213);
     justify-content: center;
+    width: 100%;
 }
-
-.button {
+.card-footer{
+    width: 100%;
+}
+.buttonContainerStyles {
     display:flex;
     justify-content: center;
 }
-.dog-button {
+#dog {
     color: white;
     background-color: rgb(80, 180, 105);
     border: none;
@@ -25,7 +31,7 @@
     border-radius: 5px;
     margin: 20px;
 }
-.cat-button {
+#cat {
     color: white;
     background-color: rgb(80, 163, 145);
     border: none;
@@ -33,7 +39,7 @@
     border-radius: 5px;
     margin: 20px;
 }
-.dino-button {
+#dino {
     color: white;
     background-color: rgb(151, 91, 185);
     border: none;
@@ -41,7 +47,7 @@
     border-radius: 5px;
     margin: 20px;
 }
-.all-button {
+#all {
     color: white;
     background-color: rgb(145, 99, 124);
     border: none;
